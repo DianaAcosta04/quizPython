@@ -2,7 +2,7 @@
 numeros = [1,2,3,4,5]
 
 #usamos la funcion lambda con una funcion numero
-duplicados = list(map(lambda x: x * 2, numeros))
+resultado = list(map(lambda x: x * 2, numeros))
 
 #imprime el resultado
-print(duplicados)
+print(resultado)
